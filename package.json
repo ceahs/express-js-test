@@ -1,0 +1,31 @@
+{
+  "name": "express-js-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detechOpenHandles",
+    "start": "node src/index.js",
+    "start-production": "NODE_ENV=production node src/index.js",
+    "start-development": "PORT=55000 NODE_ENV=development nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceahs/express-js-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceahs/express-js-test/issues"
+  },
+  "homepage": "https://github.com/ceahs/express-js-test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
